@@ -1,2 +1,5 @@
 # Kamus-Updated-One
-Aplikasi kamus terjemahan Inggris-Indonesia dan Indonesia-Inggris dengan pembaharuan pada user interface.
+
+- Halaman untuk pencarian kata English-Indonesia dan Indonesia-English.
+- Proses load data hanya dilakukan saat pertama kali aplikasi dijalankan.
+- Menggunakan data kamus yang bersumber dari berkas berbentuk text.
