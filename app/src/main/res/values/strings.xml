@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+    <string name="title_eng">Eng-Ina</string>
+    <string name="title_ina">Ina-Eng</string>
+    <string name="app_picture">application picture</string>
+    <string name="kosakata">Kosakata</string>
+    <string name="deskripsi">Deskripsinya</string>
+    <string name="search">Search</string>
+    <string name="dictionary_preference">Dictionary Preference</string>
+    <string name="engtoina">English to Indonesia</string>
+    <string name="arti">Arti</string>
+    <string name="inakeeng">Indonesia ke English</string>
+    <string name="cari">Cari</string>
+    <string name="category_image">Category Image</string>
+</resources>

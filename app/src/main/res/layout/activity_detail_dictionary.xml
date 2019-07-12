@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailDictionaryActivity"
+    android:background="@color/blue1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/blue2"
+        android:orientation="vertical"
+        android:padding="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivCategory"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_category"
+            android:contentDescription="@string/category_image" />
+
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:padding="6dp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/ivCategory"
+            android:layout_marginStart="8dp"
+            tools:text="@string/engtoina" />
+
+        <ImageView
+            android:id="@+id/ivDetailVocabulary"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/ic_vocabulary"
+            android:layout_below="@+id/ivCategory"
+            android:contentDescription="@string/category_image" />
+
+        <TextView
+            android:id="@+id/tvDetailVocabulary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/tvCategory"
+            android:layout_toEndOf="@+id/ivDetailVocabulary"
+            android:layout_marginStart="8dp"
+            tools:text="@string/kosakata" />
+
+        <ImageView
+            android:id="@+id/ivDetailMeaning"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_meaning"
+            android:layout_below="@+id/ivDetailVocabulary"
+            android:contentDescription="@string/category_image" />
+
+        <TextView
+            android:id="@+id/tvDetailMeaning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:layout_below="@+id/tvDetailVocabulary"
+            android:layout_toEndOf="@+id/ivDetailMeaning"
+            android:layout_marginStart="8dp"
+            tools:text="@string/arti" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
